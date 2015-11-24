@@ -9,7 +9,7 @@
   z-index: -100;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
-  background: url(polina.jpg) no-repeat;
+  // background: url(polina.jpg) no-repeat;
   background-size: cover;
   -webkit-filter: blur(10px);
   -moz-filter: blur(10px);
@@ -34,6 +34,7 @@
 .mission {
   margin-top: 5em;
   min-height: 500px;
+  border-bottom: 1px solid white;
 }
 
 @-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
